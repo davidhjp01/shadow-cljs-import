@@ -145,5 +145,6 @@ dist
 .shadow-cljs
 /js
 /.idea
-
+/target/cljs-runtime
+/target/manifest.edn
 # End of https://www.toptal.com/developers/gitignore/api/node

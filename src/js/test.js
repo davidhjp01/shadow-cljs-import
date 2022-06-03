@@ -1,8 +1,8 @@
-import parsePath from 'parse-filepath';
+const parsePath = require('parse-filepath');
+console.log("parse path: ", parsePath);
 
 class a {
 }
 
-parsePath("aaa");
 
 export default a

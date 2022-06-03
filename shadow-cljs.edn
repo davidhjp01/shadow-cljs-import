@@ -1,5 +1,8 @@
 {:source-paths ["src/js" "src/cljs"]
+ :dependencies []
+ :dev-http     {8080 "target/"}
  :builds       {:frontend {:target     :browser
-                           :output-dir "js"
-                           :modules    {:main {:entries [test.main]}}
+                           :asset-path "."
+                           :output-dir "target/"
+                           :modules    {:main {:init-fn test.main/main}}
                            :devtools   {:ignore-warnings true}}}}
