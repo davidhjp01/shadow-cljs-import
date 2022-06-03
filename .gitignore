@@ -147,4 +147,5 @@ dist
 /.idea
 /target/cljs-runtime
 /target/manifest.edn
+/target/main.js
 # End of https://www.toptal.com/developers/gitignore/api/node
