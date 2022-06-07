@@ -3,6 +3,6 @@ console.log("parse path: ", parsePath);
 
 class a {
 }
+parsePath("sdf");
 
-
-export default a
+module.exports = a
